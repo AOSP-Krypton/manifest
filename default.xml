@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="krypton"
+          fetch="https://github.com/AOSP-Krypton/" />
+
+  <remote name="aosp"
+          fetch="https://android-review.googlesource.com/"
+          revision="refs/tags/android-11.0.0_r24" />
+
+  <default remote="aosp" />
+
+  <remote name="caf"
+          fetch="https://source.codeaurora.org/quic/la/" />
+
+  <remote name="opengapps"
+          fetch="https://github.com/opengapps/" />
+
+  <remote name="opengapps-gitlab"
+          fetch="https://gitlab.opengapps.org/opengapps/" />
+
+  <!-- Track aosp repos -->
+  <include name="aosp.xml" />
+
+  <!-- Untrack certain aosp repos -->
+  <include name="remove.xml" />
+
+  <!-- Track krypton repos -->
+  <include name="krypton.xml" />
+
+  <!-- Track opengapps -->
+  <include name="gapps.xml" />
+
+</manifest>

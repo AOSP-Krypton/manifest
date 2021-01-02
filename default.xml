@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="krypton"
-          fetch="https://github.com/AOSP-Krypton/" />
+          fetch="https://github.com/AOSP-Krypton/" 
+          revision="A11" />
 
   <remote name="aosp"
           fetch="https://android-review.googlesource.com/"

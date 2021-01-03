@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Prebuilts -->
+  <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
+  
 </manifest>

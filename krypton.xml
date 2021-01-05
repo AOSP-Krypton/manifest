@@ -2,5 +2,8 @@
 <manifest>
   <!-- Prebuilts -->
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
-  
+
+  <!-- Vendor -->
+  <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+
 </manifest>

@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Interfaces -->
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="krypton" />
+  
 </manifest>

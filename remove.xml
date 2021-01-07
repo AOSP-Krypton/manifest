@@ -63,8 +63,11 @@
 	<remove-project name="device/ti/beagle-x15" />
 	<remove-project name="device/ti/beagle-x15-kernel" />
 
+	<remove-project name="platform/frameworks/av" />
+	
 	<remove-project name="platform/hardware/broadcom/libbt" />
 	<remove-project name="platform/hardware/broadcom/wlan" />
+	<remove-project name="platform/hardware/libhardware" />
 	<remove-project name="platform/hardware/google/pixel" />
 	<remove-project name="platform/hardware/google/pixel-sepolicy" />
 

@@ -70,6 +70,7 @@
 	<remove-project name="platform/hardware/libhardware" />
 	<remove-project name="platform/hardware/google/pixel" />
 	<remove-project name="platform/hardware/google/pixel-sepolicy" />
+        <remove-project name="platform/hardware/qcom/wlan" />
 
 	<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
 	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
+  <project path="device/qcom/sepolicy-vndr" name="device_qcom_sepolicy-vndr" remote="krypton" />
+
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="krypton" />
 

@@ -30,5 +30,7 @@
 
   <!-- Track opengapps -->
   <include name="gapps.xml" />
-
+  
+  <!-- Track caf hals -->
+  <include name="caf.xml" />
 </manifest>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Display -->
+  <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform/vendor/qcom-opensource/display-commonsys-intf" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
+
   <!-- Hardware -->
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="krypton" />

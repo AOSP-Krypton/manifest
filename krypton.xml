@@ -7,6 +7,7 @@
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="krypton" />
+  <project path="frameworks/native" name="frameworks_native" remote="krypton" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="krypton" />

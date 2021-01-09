@@ -9,6 +9,9 @@
   <!-- Prebuilts -->
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
 
+  <!-- System -->
+  <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />
+
   <!-- Vendor -->
   <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
 

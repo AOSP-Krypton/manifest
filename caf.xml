@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Display -->
-  <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform/vendor/qcom-opensource/display-commonsys-intf" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
-
   <!-- Hardware -->
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/wlan"  name="hardware_qcom-caf_sm8150_wlan" remote="krypton" />
 
-  <!-- Interfaces -->
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" revision="refs/tags/LA.UM.9.1.r1-08300-SMxxx0.0" remote="caf" />
+  <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform/vendor/qcom-opensource/display-commonsys-intf" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="krypton" />
+  <project path="vendor/qcom/opensource/cryptfs-hw" name="vendor_qcom_opensource_cryptfs-hw" remote="krypton" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="krypton" />
+  <project path="vendor/qcom/opensource/power" name="platform/vendor/qcom-opensource/power" remote="caf" revision="refs/tags/LA.UM.9.1.r1-08300-SMxxx0.0" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="refs/tags/LA.UM.9.1.r1-08300-SMxxx0.0" remote="caf" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="krypton" />
 
 </manifest>

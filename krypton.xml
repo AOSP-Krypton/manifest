@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Build -->
+  <project path="build/make" name="build_make" remote="krypton" />
+  <project path="build/soong" name="build_soong" remote="krypton" />
+
+  <!-- Bionic -->
+  <project path="bionic" name="bionic" remote="krypton" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
@@ -7,6 +13,7 @@
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="krypton" />
+  <project path="frameworks/base" name="frameworks_base" remote="krypton" />
   <project path="frameworks/native" name="frameworks_native" remote="krypton" />
 
   <!-- Hardware -->

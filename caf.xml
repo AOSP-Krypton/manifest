@@ -4,10 +4,16 @@
   <project path="external/json-c" name="platform/external/json-c" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
 
   <!-- Hardware -->
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="krypton">
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="krypton" />
-  <project path="hardware/qcom-caf/sm8150/wlan"  name="hardware_qcom-caf_sm8150_wlan" remote="krypton" />
+  <project path="hardware/qcom-caf/wlan"  name="hardware_qcom-caf_wlan" remote="krypton" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="krypton" />

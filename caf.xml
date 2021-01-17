@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- External -->
-  <project path="external/json-c" name="platform/external/json-c" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09300-qssi.0" />
+  <project path="external/json-c" name="external_json-c" remote="krypton" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="krypton">

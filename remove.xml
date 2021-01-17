@@ -90,5 +90,6 @@
 
 	<remove-project name="platform/system/memory/libion" />
 	<remove-project name="platform/system/core" />
+	<remove-project name="platform/system/update_engine" />
 
 </manifest>

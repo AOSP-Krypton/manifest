@@ -14,6 +14,9 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
   <project path="device/qcom/sepolicy-vndr" name="device_qcom_sepolicy-vndr" remote="krypton" />
 
+  <!-- External -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
+
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="krypton" />
   <project path="frameworks/base" name="frameworks_base" remote="krypton" />

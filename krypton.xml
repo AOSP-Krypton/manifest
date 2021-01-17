@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="krypton" />
+
   <!-- Build -->
   <project path="build/make" name="build_make" remote="krypton" />
   <project path="build/soong" name="build_soong" remote="krypton" />

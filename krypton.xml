@@ -33,6 +33,7 @@
   <!-- System -->
   <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />
   <project path="system/core" name="system_core" remote="krypton" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="krypton" />
   <project path="system/update_engine" name="system_update_engine" remote="krypton" />
 
   <!-- Vendor -->

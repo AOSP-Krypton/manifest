@@ -10,10 +10,6 @@
   <!-- Bionic -->
   <project path="bionic" name="bionic" remote="krypton" />
 
-  <!-- Device -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
-  <project path="device/qcom/sepolicy-vndr" name="device_qcom_sepolicy-vndr" remote="krypton" />
-
   <!-- External -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
 

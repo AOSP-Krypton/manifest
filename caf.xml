@@ -13,10 +13,15 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6125/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm6125/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="krypton" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="krypton" />
+  <project path="hardware/qcom-caf/sm6125/display" name="hardware_qcom-caf_sm6125_display" remote="krypton" />
+  <project path="hardware/qcom-caf/sm6125/media" name="hardware_qcom-caf_sm6125_media" remote="krypton" />
+  <project path="hardware/qcom-caf/sm6125/audio" name="hardware_qcom-caf_sm6125_audio" remote="krypton" />
   <project path="hardware/qcom-caf/wlan"  name="hardware_qcom-caf_wlan" remote="krypton" />
 
   <!-- Vendor -->

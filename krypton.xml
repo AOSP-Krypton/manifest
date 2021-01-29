@@ -37,6 +37,9 @@
   <!-- Prebuilts -->
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
 
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="krypton" />
+
   <!-- System -->
   <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />
   <project path="system/core" name="system_core" remote="krypton" />

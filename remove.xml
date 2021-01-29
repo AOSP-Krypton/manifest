@@ -91,6 +91,7 @@
 	<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
 	<remove-project name="platform/packages/apps/Browser2" />
+	<remove-project name="platform/packages/apps/Settings" />
 
 	<remove-project name="platform/system/memory/libion" />
 	<remove-project name="platform/system/core" />

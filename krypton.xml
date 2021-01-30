@@ -39,6 +39,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="krypton" />
+  <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton" />
 
   <!-- System -->
   <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />

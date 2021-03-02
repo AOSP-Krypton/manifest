@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="krypton"
-          fetch="https://github.com/AOSP-Krypton/" 
+          fetch="https://github.com/AOSP-Krypton/"
           revision="A11" />
 
   <remote name="aosp"
           fetch="https://android-review.googlesource.com/"
-          revision="refs/tags/android-11.0.0_r31" />
+          revision="refs/tags/android-11.0.0_r33" />
 
   <default remote="aosp" />
 
@@ -30,7 +30,7 @@
 
   <!-- Track opengapps -->
   <include name="gapps.xml" />
-  
+
   <!-- Track caf hals -->
   <include name="caf.xml" />
 </manifest>

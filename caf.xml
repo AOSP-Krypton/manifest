@@ -8,11 +8,11 @@
 
   <!-- External -->
   <project path="external/json-c" name="external_json-c" remote="krypton" />
-  <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06000-sdm660.0" />
-  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06000-sdm660.0" />
-  <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06000-sdm660.0" />
+  <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06300-sdm660.0" />
+  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06300-sdm660.0" />
+  <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf" revision="refs/tags/LA.UM.9.2.1.r1-06300-sdm660.0" />
   <project path="external/ant-wireless/antradio-library" name="platform/external/ant-wireless/antradio-library" remote="caf" revision="github/master" />
-  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09600-qssi.0" />
+  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-10500-qssi.0" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="krypton">
@@ -37,14 +37,14 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="krypton" />
-  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09900-qssi.0" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-10500-qssi.0" />
   <project path="vendor/qcom/opensource/display-commonsys-intf" name="vendor_qcom_opensource_display-commonsys-intf" remote="krypton" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="krypton" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="krypton" />
   <project path="vendor/qcom/opensource/cryptfs-hw" name="vendor_qcom_opensource_cryptfs-hw" remote="krypton" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="krypton" />
-  <project path="vendor/qcom/opensource/power" name="platform/vendor/qcom-opensource/power" remote="caf" revision="refs/tags/LA.UM.9.1.r1-08600-SMxxx0.0" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="refs/tags/LA.UM.9.1.r1-08600-SMxxx0.0" remote="caf" />
+  <project path="vendor/qcom/opensource/power" name="platform/vendor/qcom-opensource/power" remote="caf" revision="refs/tags/LA.UM.9.1.r1-09100-SMxxx0.0" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="refs/tags/LA.UM.9.1.r1-09100-SMxxx0.0" remote="caf" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="krypton" />
 
 </manifest>

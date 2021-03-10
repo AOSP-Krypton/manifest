@@ -13,11 +13,8 @@
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la/" />
 
-  <remote name="opengapps"
-          fetch="https://github.com/opengapps/" />
-
-  <remote name="opengapps-gitlab"
-          fetch="https://gitlab.opengapps.org/opengapps/" />
+  <remote name="krypton-gitlab"
+          fetch="https://gitlab.com/kosp/" />
 
   <!-- Track aosp repos -->
   <include name="aosp.xml" />

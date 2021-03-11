@@ -16,6 +16,10 @@
   <remote name="krypton-gitlab"
           fetch="https://gitlab.com/kosp/" />
 
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.1" />
+
   <!-- Track aosp repos -->
   <include name="aosp.xml" />
 

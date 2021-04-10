@@ -15,6 +15,7 @@
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-11100-qssi.0" />
 
   <!-- Hardware -->
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="krypton" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="krypton">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />

@@ -47,5 +47,6 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="krypton" />
   <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" revision="refs/tags/LA.UM.9.1.r1-09100-SMxxx0.0" remote="caf" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="krypton" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform/vendor/qcom-opensource/wfd-commonsys" revision="refs/tags/LA.QSSI.11.0.r1-11100-qssi.0" remote="caf" />
 
 </manifest>

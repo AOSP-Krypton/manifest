@@ -44,6 +44,9 @@
   <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="krypton" />
 
+  <!-- Plaform Testing -->
+  <project path="platform_testing" name="platform_testing" remote="krypton" />
+
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="krypton" />
   <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />

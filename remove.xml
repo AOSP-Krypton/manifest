@@ -93,6 +93,7 @@
 	<remove-project name="platform/packages/apps/Launcher3" />
 	<remove-project name="platform/packages/apps/Settings" />
 
+	<remove-project name="platform/system/bt" />
 	<remove-project name="platform/system/memory/libion" />
 	<remove-project name="platform/system/core" />
 	<remove-project name="platform/system/update_engine" />

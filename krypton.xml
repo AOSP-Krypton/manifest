@@ -23,6 +23,7 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="krypton" />
   <project path="external/tinycompress" name="external_tinycompress" remote="krypton" />
 
   <!-- Framework -->

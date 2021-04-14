@@ -33,6 +33,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="krypton" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="krypton" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="krypton" />
   <project path="hardware/krypton/interfaces" name="hardware_krypton_interfaces" remote="krypton" />
 

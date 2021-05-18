@@ -55,6 +55,7 @@
   <project path="system/bt" name="system_bt" remote="krypton" />
   <project path="system/memory/libion" name="system_memory_libion" remote="krypton" />
   <project path="system/core" name="system_core" remote="krypton" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="krypton" />
   <project path="system/update_engine" name="system_update_engine" remote="krypton" />
   <project path="system/vold" name="system_vold" remote="krypton" />
 

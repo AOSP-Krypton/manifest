@@ -10,8 +10,17 @@
 
   <default remote="aosp" />
 
-  <remote name="caf"
-          fetch="https://source.codeaurora.org/quic/la/" />
+  <remote name="caf_qssi"
+          fetch="https://source.codeaurora.org/quic/la/"
+          revision="refs/tags/LA.QSSI.11.0.r1-12200-qssi.0" />
+
+  <remote name="caf_vendor"
+          fetch="https://source.codeaurora.org/quic/la/"
+          revision="refs/tags/LA.UM.9.1.r1-09600-SMxxx0.0" />
+
+  <remote name="caf_ant"
+          fetch="https://source.codeaurora.org/quic/la/"
+          revision="refs/tags/LA.UM.9.2.1.r1-07200-sdm660.0" />
 
   <remote name="krypton-gitlab"
           fetch="https://gitlab.com/kosp/" />

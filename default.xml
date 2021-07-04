@@ -12,15 +12,15 @@
 
   <remote name="caf_qssi"
           fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.QSSI.11.0.r1-12200-qssi.0" />
+          revision="refs/tags/LA.QSSI.11.0.r1-12400-qssi.0" />
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.UM.9.1.r1-09600-SMxxx0.0" />
+          revision="refs/tags/LA.UM.9.1.r1-10500-SMxxx0.QSSI12.0" />
 
   <remote name="caf_ant"
           fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.UM.9.2.1.r1-07200-sdm660.0" />
+          revision="refs/tags/LA.UM.9.2.1.r1-07700-sdm660.0" />
 
   <remote name="krypton-gitlab"
           fetch="https://gitlab.com/kosp/" />

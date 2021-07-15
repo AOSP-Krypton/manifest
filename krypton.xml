@@ -42,6 +42,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="krypton" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="krypton" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="krypton" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="krypton" />
   <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton" />

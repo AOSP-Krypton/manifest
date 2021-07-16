@@ -29,6 +29,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP/"
+          revision="rvc" />
+
   <!-- Track aosp repos -->
   <include name="aosp.xml" />
 

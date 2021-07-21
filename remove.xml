@@ -104,7 +104,6 @@
 	<remove-project name="platform/platform_testing" />
 
 	<remove-project name="platform/system/bt" />
-	<remove-project name="platform/system/memory/libion" />
 	<remove-project name="platform/system/core" />
 	<remove-project name="platform/system/iorap" />
 	<remove-project name="platform/system/netd" />

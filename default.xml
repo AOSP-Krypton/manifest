@@ -47,4 +47,7 @@
 
   <!-- Track caf hals -->
   <include name="caf.xml" />
+
+  <!-- Track lineage repos -->
+  <include name="lineage.xml" />
 </manifest>

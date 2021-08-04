@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
-
     <project path="scripts" name="scripts" remote="lineage" revision="master" />
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 

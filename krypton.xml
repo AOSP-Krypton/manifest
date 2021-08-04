@@ -21,6 +21,9 @@
   <!-- Bionic -->
   <project path="bionic" name="bionic" remote="krypton" />
 
+  <!-- Lineage sepolicy -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" />
+
   <!-- External -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="krypton" />

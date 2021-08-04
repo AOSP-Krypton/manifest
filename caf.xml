@@ -4,7 +4,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="krypton" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="krypton" />
-  <project path="device/qcom/sepolicy-vndr" name="device_qcom_sepolicy-vndr" remote="krypton" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="krypton" />
 
   <!-- External -->
   <project path="external/json-c" name="external_json-c" remote="krypton" />

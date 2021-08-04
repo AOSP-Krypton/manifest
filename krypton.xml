@@ -35,7 +35,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="krypton" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="krypton" />
-  <project path="hardware/krypton/interfaces" name="hardware_krypton_interfaces" remote="krypton" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />

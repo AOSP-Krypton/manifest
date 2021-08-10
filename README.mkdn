@@ -1,0 +1,39 @@
+AOSP Krypton
+==============
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSP-Krypton repo:-
+
+```bash
+repo init -u git://github.com/AOSP-Krypton/manifest.git -b A11
+```
+Then to sync up:
+```bash
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+
+Building the source
+---------------
+
+The source at AOSP-Krypton is well configured for building.
+
+```bash
+source build/envsetup.sh
+launch 1 user -cjg
+```
+
+## Thanks section ##
+
+Here's my thanks to people who made this possible:
+
+* Google for AOSP
+* ABC
+* Derpfest
+* LineageOS
+* POSP
+* YAAP

@@ -26,6 +26,12 @@ Source the build scripts:
 ```bash
 source build/envsetup.sh
 ```
+
+We use git lfs for gapps repo, so if you are planning to build a gapps variant then make sure to run this after setting up build script:
+```bash
+syncpixelgapps -i
+```
+
 To build for a device:
 ```bash
 launch <codename> <build-variant> [OPTIONS]

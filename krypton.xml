@@ -76,6 +76,7 @@
   <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
 
   <!-- QCOM Vendor -->
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="krypton" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="krypton" />
 
 </manifest>

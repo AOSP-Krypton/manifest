@@ -45,6 +45,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="krypton" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="krypton" />

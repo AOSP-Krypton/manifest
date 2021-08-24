@@ -82,6 +82,7 @@
 	<remove-project name="platform/hardware/broadcom/wlan" />
 	<remove-project name="platform/hardware/interfaces" />
 	<remove-project name="platform/hardware/libhardware" />
+	<remove-project name="platform/hardware/nxp/nfc" />
 	<remove-project name="platform/hardware/google/pixel" />
 	<remove-project name="platform/hardware/google/pixel-sepolicy" />
 

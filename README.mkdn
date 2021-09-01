@@ -32,6 +32,11 @@ We use git lfs for gapps repo, so if you are planning to build a gapps variant t
 syncpixelgapps -i
 ```
 
+If your device is officially supported, then you can sync the device specific repositories with this command: 
+```bash
+fetchrepos <device>
+```
+
 To build for a device:
 ```bash
 launch <codename> <build-variant> [OPTIONS]

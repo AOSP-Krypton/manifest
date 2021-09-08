@@ -12,11 +12,11 @@
 
   <remote name="caf_qssi"
           fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.QSSI.11.0.r1-12900-qssi.0" />
+          revision="refs/tags/LA.QSSI.11.0.r1-13000.02-qssi.0" />
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.UM.9.1.r1-10900-SMxxx0.0" />
+          revision="refs/tags/LA.UM.9.1.r1-11100-SMxxx0.0" />
 
   <remote name="caf_ant"
           fetch="https://source.codeaurora.org/quic/la/"

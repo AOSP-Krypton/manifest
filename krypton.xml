@@ -44,7 +44,7 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-krypton" name="prebuilts_clang_host_linux-x86_clang-krypton" remote="krypton-gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/dora-clang" name="dora-clang" remote="clang-gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="krypton" />
 

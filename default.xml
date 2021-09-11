@@ -25,6 +25,9 @@
   <remote name="krypton-gitlab"
           fetch="https://gitlab.com/kosp/" />
 
+  <remote name="clang-gitlab"
+          fetch="https://gitlab.com/zlatanr/" />
+
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />

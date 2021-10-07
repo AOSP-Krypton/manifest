@@ -18,5 +18,22 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+    <!-- Lineage sepolicy -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" revision="A11" />
+
+  <!-- Hardware -->
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton" revision="A11" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" revision="A11" />
+
+  <!-- Packages -->
+  <project path="packages/apps/KOSP-Updater" name="packages_apps_KOSP-Updater" remote="krypton" />
+
+  <!-- Vendor -->
+  <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+
+  <!-- QCOM Vendor -->
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="krypton" revision="A11" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="krypton" revision="A11" />
 </manifest>

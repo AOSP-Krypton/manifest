@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="krypton"
+        fetch="https://github.com/AOSP-Krypton/"
+        revision="refs/heads/A12" />
+
+    <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+</manifest>

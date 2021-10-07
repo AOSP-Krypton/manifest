@@ -1094,5 +1094,5 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/krypton.xml" />
-
+  <include name="snippets/caf.xml" />
 </manifest>

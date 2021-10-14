@@ -66,7 +66,7 @@
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="krypton" />
-  <project path="system/core" name="system_core" remote="krypton" />
+  <project path="system/core" name="system_core-old" remote="krypton" />
   <project path="system/iorap" name="system_iorap" remote="krypton" />
   <project path="system/netd" name="system_netd" remote="krypton" />
   <project path="system/sepolicy" name="system_sepolicy" remote="krypton" />

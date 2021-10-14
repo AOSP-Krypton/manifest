@@ -4,6 +4,19 @@
         fetch="https://github.com/AOSP-Krypton/"
         revision="refs/heads/A12" />
 
+    <remote name="clang-gitlab"
+        fetch="https://gitlab.com/zlatanr/"
+        revision="master" />
+
+    <!-- ART -->
+    <project path="art" name="art" remote="krypton" />
+
+    <!-- Bionic -->
+    <project path="bionic" name="bionic" remote="krypton" />
+
+    <!-- Recovery -->
+    <project path="bootable/recovery" name="bootable_recovery" remote="krypton" />
+
     <project path="build/make" name="build_make" remote="krypton" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -19,21 +32,50 @@
     </project>
 
     <!-- Lineage sepolicy -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" revision="A11" />
+    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" revision="A11" />
 
-  <!-- Hardware -->
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton" revision="A11" />
+    <!-- External -->
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
+    <project path="external/gptfdisk" name="external_gptfdisk" remote="krypton" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="krypton" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" revision="A11" />
+    <!-- Framework -->
+    <project path="frameworks/av" name="frameworks_av" remote="krypton" />
+    <project path="frameworks/base" name="frameworks_base" remote="krypton" />
+    <project path="frameworks/native" name="frameworks_native" remote="krypton" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="krypton" />
 
-  <!-- Packages -->
-  <project path="packages/apps/KOSP-Updater" name="packages_apps_KOSP-Updater" remote="krypton" />
+    <!-- Hardware -->
+    <project path="hardware/interfaces" name="hardware_interfaces" remote="krypton" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="krypton" />
+    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton" revision="A11" />
 
-  <!-- Vendor -->
-  <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+    <!-- Prebuilts -->
+    <project path="prebuilts/clang/host/linux-x86/dora-clang" name="dora-clang" remote="clang-gitlab" clone-depth="1" />
+    <project path="prebuilts/krypton-tools" name="prebuilts_krypton-tools" remote="krypton" />
+    <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="krypton" />
 
-  <!-- QCOM Vendor -->
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="krypton" revision="A11" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="krypton" revision="A11" />
+    <!-- Packages -->
+    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="krypton" />
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="krypton" />
+    <project path="packages/apps/KOSP-Updater" name="packages_apps_KOSP-Updater" remote="krypton" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="krypton" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="krypton" />
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="krypton" />
+    <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="krypton" />
+    <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="krypton" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="krypton" />
+
+    <!-- System -->
+    <project path="system/bt" name="system_bt" remote="krypton" />
+    <project path="system/core" name="system_core" remote="krypton" />
+    <project path="system/iorap" name="system_iorap" remote="krypton" />
+    <project path="system/netd" name="system_netd" remote="krypton" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="krypton" />
+    <project path="system/update_engine" name="system_update_engine" remote="krypton" />
+    <project path="system/vold" name="system_vold" remote="krypton" />
+
+    <!-- Vendor -->
+    <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
 </manifest>

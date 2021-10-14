@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="proton"
+        fetch="https://github.com/ProtonAOSP/"
+        revision="sc" />
+
+    <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" />
+</manifest>

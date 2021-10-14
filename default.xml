@@ -1095,5 +1095,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/krypton.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/proton.xml" />
   <include name="snippets/caf.xml" />
 </manifest>

@@ -32,11 +32,12 @@
     </project>
 
     <!-- Lineage sepolicy -->
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" revision="A11" />
+    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton" />
 
     <!-- External -->
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton" />
     <project path="external/gptfdisk" name="external_gptfdisk" remote="krypton" />
+    <project path="external/mksh" name="external_mksh" remote="krypton" />
     <project path="external/tinycompress" name="external_tinycompress" remote="krypton" />
 
     <!-- Framework -->
@@ -64,13 +65,17 @@
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="krypton" />
     <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="krypton" />
+    <project path="packages/modules/adb" name="packages_modules_adb" remote="krypton" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="krypton" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="krypton" />
+
+    <project path="platform_testing" name="platform_testing" remote="krypton" />
 
     <!-- System -->
     <project path="system/bt" name="system_bt" remote="krypton" />
     <project path="system/core" name="system_core" remote="krypton" />
     <project path="system/iorap" name="system_iorap" remote="krypton" />
+    <project path="system/libziparchive" name="system_libziparchive" remote="krypton" />
     <project path="system/netd" name="system_netd" remote="krypton" />
     <project path="system/sepolicy" name="system_sepolicy" remote="krypton" />
     <project path="system/update_engine" name="system_update_engine" remote="krypton" />

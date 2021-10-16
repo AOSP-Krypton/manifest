@@ -4,6 +4,10 @@
         fetch="https://github.com/AOSP-Krypton/"
         revision="refs/heads/A12" />
 
+    <remote name="krypton-gitlab"
+        fetch="https://gitlab.com/kosp/"
+        revision="refs/heads/A12" />
+
     <remote name="clang-gitlab"
         fetch="https://gitlab.com/zlatanr/"
         revision="master" />
@@ -83,4 +87,7 @@
 
     <!-- Vendor -->
     <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
+
+    <!-- Gapps -->
+    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="krypton-gitlab" />
 </manifest>

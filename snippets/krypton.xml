@@ -89,6 +89,6 @@
     <project path="vendor/krypton" name="vendor_krypton" remote="krypton" />
 
     <!-- Gapps -->
-    <project path="vendor/google/gms" name="vendor_google_gms" remote="krypton-gitlab" />
-    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="krypton-gitlab" />
+    <project path="vendor/google/gms" name="vendor_google_gms" remote="krypton-gitlab" clone-depth="1" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="krypton-gitlab" clone-depth="1" />
 </manifest>

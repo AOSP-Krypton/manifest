@@ -82,6 +82,7 @@
 
 	<remove-project name="platform/platform_testing" />
 
+	<remove-project name="platform/prebuilts/abi-dumps/ndk" />
 	<remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
 	<remove-project name="platform/packages/apps/Bluetooth" />

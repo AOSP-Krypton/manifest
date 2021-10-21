@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSP-Krypton repo:-
 
 ```bash
-repo init -u git://github.com/AOSP-Krypton/manifest.git -b A12
+repo init -u git@github.com:AOSP-Krypton/manifest.git -b A12
 ```
 Then to sync up:
 ```bash

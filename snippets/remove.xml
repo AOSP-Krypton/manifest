@@ -33,6 +33,11 @@
 	<remove-project name="device/google/coral" />
 	<remove-project name="device/google/coral-kernel" />
 	<remove-project name="device/google/coral-sepolicy" />
+	<remove-project name="device/google/gs101" />
+	<remove-project name="device/google/gs101-sepolicy" />
+	<remove-project name="device/google/gs-common" />
+	<remove-project name="device/google/raviole" />
+	<remove-project name="device/google/raviole-kernel" />
 	<remove-project name="device/google/redbull" />
 	<remove-project name="device/google/redbull-kernel" />
 	<remove-project name="device/google/redbull-sepolicy" />
@@ -80,6 +85,9 @@
 
 	<remove-project name="platform/hardware/interfaces" />
 	<remove-project name="platform/hardware/libhardware" />
+	<remove-project name="platform/hardware/google/gchips" />
+	<remove-project name="platform/hardware/google/graphics/common" />
+	<remove-project name="platform/hardware/google/graphics/gs101" />
 
 	<remove-project name="platform/platform_testing" />
 

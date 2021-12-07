@@ -18,10 +18,10 @@
 
   <!-- External -->
   <project path="external/json-c" name="external_json-c" remote="krypton-ssh" />
-  <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf_ant" />
+  <!--project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf_ant" />
   <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf_ant" />
   <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf_ant" />
-  <project path="external/ant-wireless/antradio-library" name="platform/external/ant-wireless/antradio-library" remote="caf_qssi" revision="github/master" />
+  <project path="external/ant-wireless/antradio-library" name="platform/external/ant-wireless/antradio-library" remote="caf_qssi" revision="github/master" /-->
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf_qssi" />
 
   <!-- Hardware -->

@@ -2,9 +2,9 @@
 <manifest>
     <remote name="lineage"
         fetch="https://github.com/LineageOS"
-        revision="lineage-18.1" />
+        revision="lineage-19.0" />
 
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" revision="lineage-19.0"/>
+    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage"/>
 
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 

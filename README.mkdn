@@ -51,8 +51,6 @@ launch guacamole user -wjgf
 ```
 (-w for a clean build, -j for generating json file for ota, -g for including gapps, -f for generating fastboot zip)
 
-Also, official devices can use a code number for building, instead of their codename (which can be pretty long for some devices).
-
 If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then feel free to contact @jhonboy121 in telegram.
 
 ## Thanks section ##

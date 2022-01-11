@@ -7,7 +7,7 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-Note: Syncing requires ssh for all of our repositories, so make sure that ssh is setup properly.
+Note: Syncing requires ssh for all of our repositories (including gitlab, make SURE to add it there or else sync will fail), so make sure that ssh is setup properly.
 Here's how to do that https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 To initialize your local repository using the manifest for KOSP:-

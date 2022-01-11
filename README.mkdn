@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 Note: Syncing requires ssh for all of our repositories (including gitlab, make SURE to add it there or else sync will fail), so make sure that ssh is setup properly.
 Here's how to do that https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
-To initialize your local repository using the manifest for KOSP:-
+To initialize your local repository using the manifest for KOSP :-
 
 ```bash
 repo init -u git@github.com:AOSP-Krypton/manifest.git -b A12
@@ -30,28 +30,22 @@ Source the build scripts:
 source build/envsetup.sh
 ```
 
-If your device is officially supported, then you can sync the device specific repositories with this command: 
+You can sync the device specific repositories with this command (it is just a wrapper around roomservice): 
 ```bash
 fetchrepos <device>
 ```
 
 To build for a device:
 ```bash
-launch <codename> <build-variant> [OPTIONS]
+launch <device> <build-variant> [OPTIONS]
 ```
 For a full list of available options, run this command after sourcing build scripts:
 ```bash
 hmm
 ```
-You will now see the manual for using different bash functions available, including krypton specific functions.
+You will now see the manual for using different functions available, including krypton specific functions.
 
-As an example, for cooking a user build for guacamole, run:
-```bash
-launch guacamole user -wjgf
-```
-(-w for a clean build, -j for generating json file for ota, -g for including gapps, -f for generating fastboot zip)
-
-If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then feel free to contact @jhonboy121 in telegram.
+If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then join our common chat https://t.me/kryptonaosp in telegram and contact one of the admins.
 
 ## Thanks section ##
 

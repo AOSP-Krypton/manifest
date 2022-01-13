@@ -14,4 +14,5 @@
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
     <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+    <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1"/>
 </manifest>

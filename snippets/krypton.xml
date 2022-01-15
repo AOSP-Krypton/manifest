@@ -70,7 +70,7 @@
     <project path="packages/apps/GrapheneOS-Camera" name="packages_apps_GrapheneOS-Camera" remote="krypton-ssh" revision="main" />
     <project path="packages/apps/KOSP-Updater" name="packages_apps_KOSP-Updater" remote="krypton-ssh" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="krypton-ssh" />
-    <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="krypton-ssh" />
+    <project path="packages/apps/MatlogX" name="packages_apps_MatlogX" remote="krypton-ssh" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="krypton-ssh" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="krypton-ssh" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="krypton-ssh" />

@@ -37,8 +37,8 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <!-- Lineage sepolicy -->
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="krypton-ssh" />
+    <!-- Custom sepolicy -->
+    <project path="device/krypton/sepolicy" name="device_krypton_sepolicy" remote="krypton-ssh" />
 
     <!-- External -->
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="krypton-ssh" />

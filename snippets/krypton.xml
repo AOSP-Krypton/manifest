@@ -14,6 +14,10 @@
         fetch="ssh://git@gitlab.com/kosp/"
         revision="A12" />
 
+    <remote name="grapheneos"
+        fetch="ssh://git@github.com/GrapheneOS/"
+        revision="12" />
+
     <!-- ART -->
     <project path="art" name="art" remote="krypton-ssh" />
 
@@ -65,9 +69,9 @@
 
     <!-- Packages -->
     <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="krypton-ssh" />
+    <project path="packages/apps/Camera" name="platform_external_Camera" remote="grapheneos" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="krypton-ssh" />
     <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="krypton-ssh" />
-    <project path="packages/apps/GrapheneOS-Camera" name="packages_apps_GrapheneOS-Camera" remote="krypton-ssh" revision="main" />
     <project path="packages/apps/KOSP-Updater" name="packages_apps_KOSP-Updater" remote="krypton-ssh" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="krypton-ssh" />
     <project path="packages/apps/MatlogX" name="packages_apps_MatlogX" remote="krypton-ssh" />

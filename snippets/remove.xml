@@ -89,6 +89,8 @@
 	<remove-project name="platform/hardware/google/graphics/common" />
 	<remove-project name="platform/hardware/google/graphics/gs101" />
 
+	<remove-project name="platform/packages/modules/Wifi" />
+
 	<remove-project name="platform/platform_testing" />
 
 	<remove-project name="platform/prebuilts/abi-dumps/ndk" />

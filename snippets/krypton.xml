@@ -81,6 +81,7 @@
     <project path="packages/apps/Settings/KryptonSettings" name="packages_apps_KryptonSettings" remote="krypton-ssh" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="krypton-ssh" />
     <project path="packages/modules/adb" name="packages_modules_adb" remote="krypton-ssh" />
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="krypton-ssh" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="krypton-ssh" />
     <project path="packages/resources/PreferenceExtensions" name="packages_resources_PreferenceExtensions" remote="krypton-ssh" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="krypton-ssh" />

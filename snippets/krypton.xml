@@ -89,6 +89,7 @@
     <project path="platform_testing" name="platform_testing" remote="krypton-ssh" />
 
     <!-- System -->
+    <project path="system/bt" name="system_bt" remote="krypton-ssh" />
     <project path="system/core" name="system_core" remote="krypton-ssh" />
     <project path="system/libziparchive" name="system_libziparchive" remote="krypton-ssh" />
     <project path="system/netd" name="system_netd" remote="krypton-ssh" />
@@ -104,4 +105,8 @@
     <!-- Gapps -->
     <project path="vendor/google/gms" name="vendor_google_gms" remote="krypton-gitlab" clone-depth="1" />
     <project path="vendor/google/pixel" name="vendor_google_pixel" remote="krypton-gitlab" clone-depth="1" />
+
+    <!-- Bluetooth -->
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="krypton-ssh" />
+    
 </manifest>

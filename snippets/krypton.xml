@@ -83,7 +83,6 @@
     <project path="packages/modules/adb" name="packages_modules_adb" remote="krypton-ssh" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="krypton-ssh" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="krypton-ssh" />
-    <project path="packages/resources/PreferenceExtensions" name="packages_resources_PreferenceExtensions" remote="krypton-ssh" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="krypton-ssh" />
 
     <project path="platform_testing" name="platform_testing" remote="krypton-ssh" />
@@ -100,6 +99,7 @@
     <!-- Vendor -->
     <project path="vendor/krypton" name="vendor_krypton" remote="krypton-ssh" />
     <project path="vendor/lawnchair" name="vendor_lawnchair" remote="krypton-ssh" />
+    <project path="vendor/support" name="vendor_support" remote="krypton-ssh" />
     <project path="vendor/themes" name="vendor_themes" remote="krypton-ssh" />
 
     <!-- Gapps -->

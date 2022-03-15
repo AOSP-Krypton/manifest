@@ -16,7 +16,7 @@
 
     <remote name="grapheneos"
         fetch="ssh://git@github.com/GrapheneOS/"
-        revision="12" />
+        revision="12.1" />
 
     <!-- ART -->
     <project path="art" name="art" remote="krypton-ssh" />

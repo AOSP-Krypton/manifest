@@ -15,6 +15,7 @@
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton-ssh" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="krypton-ssh" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="krypton-ssh" />
 
   <!-- External -->
   <project path="external/json-c" name="external_json-c" remote="krypton-ssh" />

@@ -1,0 +1,70 @@
+AOSP Krypton
+==============
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSP-Krypton repo:-
+
+```bash
+repo init -u git@github.com:AOSP-Krypton/manifest.git -b A11
+```
+Then to sync up:
+```bash
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+Building the source
+---------------
+
+The source at AOSP-Krypton is well configured for building.
+
+Source the build scripts:
+```bash
+source build/envsetup.sh
+```
+
+We use git lfs for gapps repo, so if you are planning to build a gapps variant then make sure to run this after setting up build script:
+```bash
+syncpixelgapps -i
+```
+
+If your device is officially supported, then you can sync the device specific repositories with this command: 
+```bash
+fetchrepos <device>
+```
+
+To build for a device:
+```bash
+launch <codename> <build-variant> [OPTIONS]
+```
+For a full list of available options, run this command after sourcing build scripts:
+```bash
+hmm
+```
+You will now see the manual for using different bash functions available, including krypton specific functions.
+
+As an example, for cooking a user build for guacamole, run:
+```bash
+launch guacamole user -wjgf
+```
+(-w for a clean build, -j for generating json file for ota, -g for including gapps, -f for generating fastboot zip)
+
+Also, official devices can use a code number for building, instead of their codename (which can be pretty long for some devices).
+
+If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then feel free to contact @jhonboy121 in telegram.
+
+## Thanks section ##
+
+Here's my thanks to people who made this possible:
+
+* Google for AOSP
+* ABC
+* DerpFest
+* LineageOS
+* POSP
+* YAAP
+* MSM-Xtended

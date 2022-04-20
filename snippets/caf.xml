@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="krypton" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="krypton" />
+
+  <!-- External -->
+  <project path="external/json-c" name="external_json-c" remote="krypton" />
+  <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf_ant" />
+  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf_ant" />
+  <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf_ant" />
+  <project path="external/ant-wireless/antradio-library" name="platform/external/ant-wireless/antradio-library" remote="caf_qssi" revision="github/master" />
+  <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf_qssi" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="krypton" />
+  <project path="hardware/qcom-caf/bt"  name="hardware_qcom-caf_bt" remote="krypton" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="krypton">
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6125/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6125/Android.bp" />
+  </project>
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="krypton" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="krypton" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="krypton" />
+  <project path="hardware/qcom-caf/wlan"  name="hardware_qcom-caf_wlan" remote="krypton" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="krypton" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf_qssi" />
+  <project path="vendor/qcom/opensource/display-commonsys-intf" name="vendor_qcom_opensource_display-commonsys-intf" remote="krypton" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="krypton" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="krypton" />
+  <project path="vendor/qcom/opensource/cryptfs-hw" name="vendor_qcom_opensource_cryptfs-hw" remote="krypton" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="krypton" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="krypton" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="krypton" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="caf_qssi" />
+
+</manifest>

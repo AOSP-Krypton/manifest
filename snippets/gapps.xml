@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="vendor/google/gms" name="vendor_google_gms" revision="A11" remote="krypton-gitlab" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel" revision="A11" remote="krypton-gitlab" />
+</manifest>

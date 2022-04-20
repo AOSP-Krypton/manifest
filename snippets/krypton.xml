@@ -61,6 +61,7 @@
     <project path="hardware/interfaces" name="hardware_interfaces" remote="krypton-ssh" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="krypton-ssh" />
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="krypton-ssh" revision="A11" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="krypton-ssh" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/dora-clang" name="zlatanr/dora-clang-1" remote="gitlab-ssh" revision="master" clone-depth="1" />

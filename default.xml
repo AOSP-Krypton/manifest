@@ -1185,4 +1185,5 @@
   <!-- END open-source projects -->
 
   <include name="snippets/remove.xml" />
+  <include name="snippets/kosp.xml" />
 </manifest>

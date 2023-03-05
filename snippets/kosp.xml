@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github-ssh"
+        fetch="ssh://git@github.com/" />
+
+    <remote name="kosp"
+        fetch="ssh://git@github.com/AOSP-Krypton/"
+        revision="A13" />
+
+    <remote name="gitlab-ssh"
+        fetch="ssh://git@gitlab.com/" />
+
+    <remote name="kosp-gitlab"
+        fetch="ssh://git@gitlab.com/kosp/"
+        revision="A13" />
+
+    <remote name="grapheneos"
+        fetch="ssh://git@github.com/GrapheneOS/"
+        revision="13" />
+
+    <!-- ART -->
+    <remove-project name="platform/art" />
+    <project path="art" name="art" remote="kosp" />
+
+    <!-- Vendor -->
+    <project path="vendor/kosp" name="vendor_kosp" remote="kosp" />
+    <project path="vendor/support" name="vendor_support" remote="kosp" />
+    <project path="vendor/themes" name="vendor_themes" remote="kosp" />
+
+</manifest>
+

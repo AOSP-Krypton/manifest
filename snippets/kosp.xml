@@ -40,6 +40,21 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Device -->
+    <project path="device/kosp/sepolicy" name="device_kosp_sepolicy" remote="kosp" />
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="kosp" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="kosp" />
+
+    <!-- Hardware -->
+    <remove-project name="platform/hardware/libhardware" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="kosp" />
+
+    <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="kosp" />
+
+    <!-- System -->
+    <remove-project name="platform/system/sepolicy" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="kosp" />
+
     <!-- Vendor -->
     <project path="vendor/kosp" name="vendor_kosp" remote="kosp" />
     <project path="vendor/support" name="vendor_support" remote="kosp" />

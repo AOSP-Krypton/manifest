@@ -2,14 +2,14 @@
 <manifest>
     <remote name="clo_system"
             fetch="https://git.codelinaro.org/clo/la"
-            revision="refs/tags/LA.QSSI.13.0.r1-08300-qssi.0" />
+            revision="refs/tags/LA.QSSI.13.0.r1-09400-qssi.0" />
 
     <remote name="clo_vendor"
             fetch="https://git.codelinaro.org/clo/la"
             revision="refs/tags/LA.VENDOR.1.0.r1-19300-WAIPIO.QSSI13.0" />
 
     <!-- External -->
-    <project path="external/json-c" name="external_json-c" remote="clo_system" />
+    <project path="external/json-c" name="platform/external/json-c" remote="clo_system" />
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="clo_system" />

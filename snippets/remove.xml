@@ -8,8 +8,6 @@
 	<remove-project name="device/generic/art" />
 	<remove-project name="device/generic/car" />
 	<remove-project name="device/generic/common" />
-	<remove-project name="device/generic/goldfish" />
-	<remove-project name="device/generic/goldfish-opengl" />
 	<remove-project name="device/generic/mini-emulator-arm64" />
 	<remove-project name="device/generic/mini-emulator-armv7-a-neon" />
 	<remove-project name="device/generic/mini-emulator-x86" />
@@ -23,6 +21,9 @@
 	<remove-project name="device/google/atv" />
 	<remove-project name="device/google/barbet" />
 	<remove-project name="device/google/barbet-sepolicy" />
+	<remove-project name="device/google/bluejay" />
+	<remove-project name="device/google/bluejay-sepolicy" />
+	<remove-project name="device/google/bluejay-kernel" />
 	<remove-project name="device/google/bramble" />
 	<remove-project name="device/google/bramble-sepolicy" />
 	<remove-project name="device/google/contexthub" />
@@ -31,7 +32,12 @@
 	<remove-project name="device/google/coral-sepolicy" />
 	<remove-project name="device/google/gs101" />
 	<remove-project name="device/google/gs101-sepolicy" />
+	<remove-project name="device/google/gs201" />
+	<remove-project name="device/google/gs201-sepolicy" />
 	<remove-project name="device/google/gs-common" />
+	<remove-project name="device/google/pantah" />
+	<remove-project name="device/google/pantah-kernel" />
+	<remove-project name="device/google/pantah-sepolicy" />
 	<remove-project name="device/google/raviole" />
 	<remove-project name="device/google/raviole-kernel" />
 	<remove-project name="device/google/redbull" />
@@ -59,6 +65,7 @@
 	<remove-project name="platform/hardware/google/gchips" />
 	<remove-project name="platform/hardware/google/graphics/common" />
 	<remove-project name="platform/hardware/google/graphics/gs101" />
+	<remove-project name="platform/hardware/google/graphics/gs201" />
 
 	<remove-project name="platform/packages/apps/Browser2" />
 	<remove-project name="platform/packages/apps/Camera2" />

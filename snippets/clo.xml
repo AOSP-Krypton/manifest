@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="clo_system"
+            fetch="https://git.codelinaro.org/clo/la"
+            revision="refs/tags/LA.QSSI.13.0.r1-08300-qssi.0" />
+
+    <remote name="clo_vendor"
+            fetch="https://git.codelinaro.org/clo/la"
+            revision="refs/tags/LA.VENDOR.1.0.r1-19300-WAIPIO.QSSI13.0" />
+
+    <!-- External -->
+    <project path="external/json-c" name="external_json-c" remote="clo_system" />
+
+    <!-- Vendor -->
+    <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="clo_system" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="clo_vendor" />
+    <project path="vendor/qcom/opensource/wfd-commonsys" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" />
+
+</manifest>

@@ -10,6 +10,7 @@
 
     <!-- External -->
     <project path="external/json-c" name="platform/external/json-c" remote="clo_system" />
+    <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="clo_system" />
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="clo_system" />

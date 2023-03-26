@@ -45,6 +45,10 @@
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="kosp" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="kosp" />
 
+    <!-- External -->
+    <remove-project name="platform/external/tinycompress" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="kosp" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/libhardware" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="kosp" />

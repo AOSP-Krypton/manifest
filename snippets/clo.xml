@@ -15,6 +15,5 @@
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="clo_system" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="clo_vendor" />
-    <project path="vendor/qcom/opensource/wfd-commonsys" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" revision="refs/tags/LA.QSSI.11.0.r1-16900-qssi.0" />
 
 </manifest>

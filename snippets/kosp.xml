@@ -59,6 +59,9 @@
     <remove-project name="platform/system/sepolicy" />
     <project path="system/sepolicy" name="system_sepolicy" remote="kosp" />
 
+    <remove-project name="platform/system/update_engine" />
+    <project path="system/update_engine" name="system_update_engine" remote="kosp" />
+
     <!-- Vendor -->
     <project path="vendor/kosp" name="vendor_kosp" remote="kosp" />
     <project path="vendor/support" name="vendor_support" remote="kosp" />

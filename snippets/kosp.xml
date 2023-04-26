@@ -49,6 +49,16 @@
     <remove-project name="platform/external/tinycompress" />
     <project path="external/tinycompress" name="external_tinycompress" remote="kosp" />
 
+    <!-- Framework -->
+    <remove-project name="platform/frameworks/av" />
+    <project path="frameworks/av" name="frameworks_av" remote="kosp" />
+
+    <remove-project name="platform/frameworks/base" />
+    <project path="frameworks/base" name="frameworks_base" remote="kosp" />
+
+    <remove-project name="platform/frameworks/native" />
+    <project path="frameworks/native" name="frameworks_native" remote="kosp" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/libhardware" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="kosp" />

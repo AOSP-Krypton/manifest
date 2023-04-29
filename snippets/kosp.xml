@@ -65,6 +65,9 @@
 
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="kosp" />
 
+    <!-- Packages -->
+    <project path="packages/apps/KOSPSystemUI" name="packages_apps_KOSPSystemUI" remote="kosp" />
+
     <!-- System -->
     <remove-project name="platform/system/core" />
     <project path="system/core" name="system_core" remote="kosp" />

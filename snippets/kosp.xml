@@ -66,7 +66,12 @@
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="kosp" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Settings" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="kosp" />
+
+    <project path="packages/apps/KOSPSettings" name="packages_apps_KOSPSettings" remote="kosp" />
     <project path="packages/apps/KOSPSystemUI" name="packages_apps_KOSPSystemUI" remote="kosp" />
+
 
     <!-- System -->
     <remove-project name="platform/system/core" />
@@ -80,6 +85,7 @@
 
     <!-- Vendor -->
     <project path="vendor/kosp" name="vendor_kosp" remote="kosp" />
+    <project path="vendor/prebuilts" name="vendor_prebuilts" remote="kosp-gitlab" />
     <project path="vendor/support" name="vendor_support" remote="kosp" />
     <project path="vendor/themes" name="vendor_themes" remote="kosp" />
 
